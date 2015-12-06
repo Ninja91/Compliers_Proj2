@@ -1,0 +1,2 @@
+main:i1,i2
+foo1:p,q
