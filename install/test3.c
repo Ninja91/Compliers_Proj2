@@ -27,11 +27,16 @@ void foo0(int a, float b)
   }
 }
 
+void foo2(int * a) {
+    *a = 1;
+}
+
 int main()
 {
   int i1, i2;
   foo0(10,20.0);
   foo1();
+  foo2(&i2);
   printf("%c, %s\n",myTemp[0].c[0][i1],myTemp[0].c[myTemp[i2].a]);
   return;
 }
